@@ -6,7 +6,7 @@ A modern, full-stack business management tool built for small-to-medium agricult
 
 Perfect for dukas, agro-vets, and wholesalers who need to know **what they sold**, **who bought it**, **when to restock**, and how much profit they're making.
 
-Built as part of the **Pesapal Junior Dev Challenge '26** — showcasing clean architecture, real-world Kenyan business logic, and determination under tight deadlines.
+Built as part of the **Pesapal  Dev Challenge '26** — showcasing clean architecture, real-world Kenyan business logic, and determination under tight deadlines.
 
 ## ✨ Features
 
@@ -139,7 +139,7 @@ The seed script includes:
 
 ## Built For
 
-**Pesapal Junior Dev Challenge '26**
+**Pesapal  Dev Challenge '26**
 A real-world tool for Kenyan hustlers in agriculture — because good record-keeping should be as easy as M-Pesa.
 
 Made with Next.js 16, Supabase, Tailwind, Recharts, and lots of late nights and coffee🍵.
