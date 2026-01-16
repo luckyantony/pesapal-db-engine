@@ -229,9 +229,9 @@ const DashboardContent = () => {
                 </tr>
               </thead>
               <tbody>
-                {sales
-                  .slice(-10)
-                  .reverse()
+                {[...sales]
+                  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+                  .slice(0, 10)
                   .map((sale) => (
                     <tr key={sale.id} className="border-b border-border/50 hover:bg-gray-50">
                       <td className="py-3 px-4">{new Date(sale.date).toLocaleDateString()}</td>
