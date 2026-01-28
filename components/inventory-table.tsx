@@ -19,6 +19,7 @@ const InventoryTable = ({ items, onUpdate }: InventoryTableProps) => {
     setEditStock(item.stock_level.toString())
     setEditPrice(item.unit_price.toString())
   }
+  
 
   const handleSave = async (id: string) => {
     setIsLoading(true)
